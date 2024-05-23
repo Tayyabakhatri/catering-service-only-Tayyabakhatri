@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catering-service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg navbar-light py-4">
+    <div class="container">
+      <a class="navbar-brand font" href="#">Cater<span class="logo-color">Serv</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  p-3" aria-current="page" href="#"><span class=" tab-color">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  p-3" href="#"><span class="tab-color">About</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-3" href="#"><span class=" tab-color ">Services</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  p-3" href="#"><span class="tab-color ">Events</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  p-3" href="#"><span class="tab-color">Menu</span></a>
+          </li>
+          <li class="nav-item  activedropdown">
+            <a class="nav-link dropdown-toggle p-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span class=" tab-color"> Pages</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Booking</a></li>
+              <li><a class="dropdown-item" href="#">Our Block</a></li>
+              <li><a class="dropdown-item">Our team</a></li>
+              <li><a class="dropdown-item" href="#">Testimonial</a></li>
+              <li><a class="dropdown-item" href="#">404 Pages</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link p-3" href="#"><span class="tab-color ">Contact</span></a>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <button type="button" class="btn btn-primary btn-lg rounded-circle bt mx-2 "><i
+              class="fa-solid fa-magnifying-glass " style="color: #000205;"></i></button>
+
+          <button type="button" class="btn btn-primary btn-lg rounded-pill px-5 py-3 bt">Book now</button>
+
+        </form>
+
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  <!-- hero section start -->
+
+  <div class="d-flex justify-content-center">
+    <div class="container  col-xxl-12 m-2 ">
+      <div class="row flex-lg-row-reverse align-items-center justify-content-center">
+        <div class="col-10 col-sm-8 col-lg-6 p-2 ">
+          <img src="images/hero.png" class="mx-lg-auto img-fluid px-4 scale-up-center" alt="Bootstrap Themes"
+            loading="lazy">
+        </div>
+        <div class="col-lg-6">
+
+          <h1 class="display-5 fw-bold lh-1 mb-3 main-heading text-focus-in">Book <span
+              class="logo-color">Cater</span>Serv For Your Dream Event</h1>
+
+          <div class="d-flex gap-3 gap-md-5">
+            <button type="button" class="btn btn-primary btn-lg rounded-pill px-sm-4 px-md-5 py-3 bt">Book now</button>
+            <button type="button" class="btn btn-primary btn-lg rounded-pill px-sm-4 px-md-5 py-3 bt">Know More</button>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- satisfied clients -->
+  <div class="container col-xxl-12 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+      <div class="col-lg-7">
+        <h1 class="display-5  lh-1 mb-3 p text-center text-md-start">Trusted By 200 + satisfied clients</h1>
+        <p class="lead">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore eit esdioilore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullaemco laboeeiris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor iesdein reprehendeerit in voluptate velit esse cillum dolore.</p>
+        <div class="d-flex flex-wrap justify-content-between mb-3 mb-md-5">
+          <div>
+            <li class="list-unstyled pb-3"><i class="fa-regular fa-circle-dot fa-xs " style="color: #FFD43B;"></i>Easy
+              Customization Options</li>
+            <li class="list-unstyled pb-3"><i class="fa-regular fa-circle-dot fa-xs" style="color: #FFD43B;"></i>Fresh
+              and Fast food Delivery</li>
+          </div>
+          <div>
+            <li class="list-unstyled pb-3"><i class="fa-regular fa-circle-dot fa-xs"
+                style="color: #FFD43B;"></i>Delicious Deals for Delicious Meals</li>
+            <li class="list-unstyled pb-3"><i class="fa-regular fa-circle-dot fa-xs" style="color: #FFD43B;"></i>24/7
+              Customer Support</li>
+          </div>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg rounded-pill px-5 py-3 bt">About us</button>
+        </div>
+      </div>
+      <div class="col-10 col-sm-12 col-lg-5">
+        <img src="images/about.jpg" class="d-block mx-lg-auto img-fluid " alt="Bootstrap Themes" width="700" height="500"
+          loading="lazy">
+      </div>
+    </div>
+  </div>
+  <!-- satisfied client end -->
+  <!-- cards start -->
+  <div class="container col-xxl-12">
+    <div class="container ">
+      <div class="row">
+        <div
+          class="col-12 col-md-7 d-flex flex-wrap gap-2 gap-md-4 justify-content-center justify-content-md-start align-items-center">
+          <div class="card card-color p-3" style="width: 14rem; height: 12rem;">
+            <div class="py-3 d-flex justify-content-center">
+              <i class="fa-solid fa-users fa-2xl" style="color: #fcfcfc;"></i>
+            </div>
+            <div class="card-body ">
+              <h5 class="card-title display-3 card-font text-center p-0">689</h5>
+              <p class="text-center">HAPPY CUSTOMERS</p>
+
+            </div>
+          </div>
+          <div class="card card-color p-3" style="width: 14rem; height: 12rem;">
+            <div class="py-3 d-flex justify-content-center">
+              <i class="fa-solid fa-users-gear fa-2xl" style="color: #fcfcfc;"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title display-3 card-font text-center p-0">107</h5>
+              <p class="text-center">EXPERT CHEFS</p>
+
+            </div>
+          </div>
+          <div class="card card-color px-2 py-2" style="width: 14rem; height: 12rem;">
+            <div class="py-3 d-flex justify-content-center">
+              <i class="fa-solid fa-check fa-2xl fa" style="color: #ffffff;"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title display-3 card-font text-center p-0">253</h5>
+              <p class="text-center">EVENTS COMPLETE</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 mt-2 mt-md-0 d-flex justify-content-center ">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/v0uzklldxWY?si=WafPnsrMNhruvmi8"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="embed-responsive"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- cards end -->
+  <!-- offers start -->
+  <section class="offer-section" style="background-color:#fffcf8;">
+    <div class="d-flex justify-content-center">
+      <button class="rounded-pill border-color px-4">
+        OUR SERVICES
+      </button>
+    </div>
+    <h1 class="text-center offer-heading">
+      What we offer
+    </h1>
+    <div class="container">
+      <div class="row row-cols-4">
+        <div class="col col-12 col-md-4 col-lg-3 mt-3 mt-md-5  ">
+          <div class="card border-0 cards-color">
+            <div class="d-flex justify-content-center align-items-center pt-2 card-i ">
+              <i class="fa-solid fa-bell-concierge fa-size"></i>
+
+            </div>
+            <div class="card-body text-center card-content">
+              <h3 class="card-title">Wedding Services</h3>
+              <p class="card-text">Contrary to popular belief, ipsum is not simply random.</p>
+              <button type="button" class="btn btn-primary btn-lg rounded-pill px-4 py-2 bt">Read more</button>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3  mt-3 mt-md-5">
+          <div class="card border-0 cards-color">
+            <div class="d-flex justify-content-center align-items-center pt-2 card-i">
+              <i class="fa-solid fa-pizza-slice fa-size"></i>
+
+            </div>
+            <div class="card-body text-center card-content">
+              <h3 class="card-title">Wedding Services</h3>
+              <p class="card-text">Contrary to popular belief, ipsum is not simply random.</p>
+              <button type="button" class="btn btn-primary btn-lg rounded-pill px-4 py-2 bt">Read more</button>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3  mt-3 mt-md-5">
+          <div class="card border-0 cards-color">
+            <div class="d-flex justify-content-center align-items-center pt-2 card-i">
+              <i class="fa-solid fa-hotdog fa-size"></i>
+
+            </div>
+            <div class="card-body text-center card-content">
+              <h3 class="card-title">Wedding Services</h3>
+              <p class="card-text ">Contrary to popular belief, ipsum is not simply random.</p>
+              <button type="button" class="btn btn-primary btn-lg rounded-pill px-4 py-2 bt">Read more</button>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3  mt-3 mt-md-5">
+          <div class="card border-0 cards-color">
+            <div class="d-flex justify-content-center align-items-center pt-2 card-i">
+              <i class="fa-solid fa-burger fa-size"></i>
+
+            </div>
+            <div class="card-body text-center card-content">
+              <h3 class="card-title">Wedding Services</h3>
+              <p class="card-text">Contrary to popular belief, ipsum is not simply random.</p>
+              <button type="button" class="btn btn-primary btn-lg rounded-pill px-4 py-2 bt">Read more</button>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3  mt-3 mt-md-5">
+          <div class="card border-0 cards-color">
+            <div class="d-flex justify-content-center align-items-center pt-2 card-i">
+              <i class="fa-solid fa-martini-glass-citrus fa-size"></i>
+
+            </div>
+            <div class="card-body text-center card-content">
+              <h3 class="card-title">Wedding Services</h3>
+              <p class="card-text">Contrary to popular belief, ipsum is not simply random.</p>
+              <button type="button" class="btn btn-primary btn-lg rounded-pill px-4 py-2 bt">Read more</button>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3  mt-3 mt-md-5">
+          <div class="card border-0 cards-color">
+            <div class="d-flex justify-content-center align-items-center pt-2 card-i">
+              <i class="fa-solid fa-person-running fa-size"></i>
+
+            </div>
+            <div class="card-body text-center card-content">
+              <h3 class="card-title">Wedding Services</h3>
+              <p class="card-text">Contrary to popular belief, ipsum is not simply random.</p>
+              <button type="button" class="btn btn-primary btn-lg rounded-pill px-4 py-2 bt">Read more</button>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3 mt-3 mt-md-5">
+          <div class="card border-0 cards-color">
+            <div class="d-flex justify-content-center align-items-center pt-2 card-i">
+              <i class="fa-solid fa-bell-concierge fa-size"></i>
+
+            </div>
+            <div class="card-body text-center card-content">
+              <h3 class="card-title">Wedding Services</h3>
+              <p class="card-text">Contrary to popular belief, ipsum is not simply random.</p>
+              <button type="button" class="btn btn-primary btn-lg rounded-pill px-4 py-2 bt">Read more</button>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3 mt-3 mt-md-5 ">
+          <div class="card border-0 cards-color">
+            <div class="d-flex justify-content-center align-items-center pt-2 card-i">
+              <i class="fa-solid fa-utensils fa-size"></i>
+
+            </div>
+            <div class="card-body text-center card-content">
+              <h3 class="card-title">Wedding Services</h3>
+              <p class="card-text ">Contrary to popular belief, ipsum is not simply random.</p>
+              <button type="button" class="btn btn-primary btn-lg rounded-pill px-4 py-2 bt">Read more</button>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </section>
+  <!-- offers end -->
+  <!-- social event gallery strat -->
+  <section class="social-section">
+    <div class="d-flex justify-content-center">
+      <button class="rounded-pill border-color px-4">
+        LATEST EVENTS
+      </button>
+    </div>
+    <p class="text-center offer-heading mt-3 ">Our Social & Professional Events Gallery</p>
+    <div class=" row d-flex justify-content-center gap-4">
+      <div class="col-auto">
+        <button class="rounded-pill border-color px-4 py-2">
+          STARTER
+        </button>
+      </div>
+      <div class="col-auto">
+        <button class="rounded-pill border-color px-4 py-2 ">
+          MAIN COURSE
+        </button>
+      </div>
+      <div class="col-auto">
+        <button class="rounded-pill border-color px-4 py-2 ">
+          DRINKS
+        </button>
+      </div>
+      <div class="col-auto">
+        <button class="rounded-pill border-color px-4 py-2 ">
+          OFFERS
+        </button>
+      </div>
+      <div class="col-auto">
+        <button class="rounded-pill border-color px-4 py-2 ">
+          OUR SPECIALS
+        </button>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row row-cols-4">
+        <div class="col col-12 col-md-4 col-lg-3 mt-4 mb-4">
+          <div class="img-container">
+            <img src="images/event-1.jpg" alt="" class="img-fluid rounded-3">
+            <div class="over-lay"> <!-- Moved inside the .img-container -->
+              <i class="fa-solid fa-magnifying-glass" style="color: #000205;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3 mt-4 mb-4">
+          <div class="img-container">
+            <img src="images/event-2.jpg" alt="" class="img-fluid rounded-3">
+            <div class="over-lay"> <!-- Moved inside the .img-container -->
+              <i class="fa-solid fa-magnifying-glass" style="color: #000205;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3 mt-4 mb-4">
+          <div class="img-container">
+            <img src="images/event-3.jpg" alt="" class="img-fluid rounded-3">
+            <div class="over-lay"> <!-- Moved inside the .img-container -->
+              <i class="fa-solid fa-magnifying-glass" style="color: #000205;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3 mt-4 mb-4">
+          <div class="img-container">
+            <img src="images/event-4.jpg" alt="" class="img-fluid rounded-3">
+            <div class="over-lay"> <!-- Moved inside the .img-container -->
+              <i class="fa-solid fa-magnifying-glass" style="color: #000205;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3 mt-4 mb-4">
+          <div class="img-container">
+            <img src="images/event-5.jpg" alt="" class="img-fluid rounded-3">
+            <div class="over-lay"> <!-- Moved inside the .img-container -->
+              <i class="fa-solid fa-magnifying-glass" style="color: #000205;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3 mt-4 mb-4">
+          <div class="img-container">
+            <img src="images/event-6.jpg" alt="" class="img-fluid rounded-3">
+            <div class="over-lay"> <!-- Moved inside the .img-container -->
+              <i class="fa-solid fa-magnifying-glass" style="color: #000205;"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-12 col-md-4 col-lg-3 mt-4 mb-4">
+          <div class="img-container">
+            <img src="images/event-7.jpg" alt="" class="img-fluid rounded-3">
+            <div class="over-lay"> <!-- Moved inside the .img-container -->
+              <i class="fa-solid fa-magnifying-glass" style="color: #000205;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-4 col-lg-3 mt-4 mb-4">
+          <div class="img-container">
+            <img src="images/event-8.jpg" alt="" class="img-fluid rounded-3">
+            <div class="over-lay"> <!-- Moved inside the .img-container -->
+              <i class="fa-solid fa-magnifying-glass" style="color: #000205;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- popular food start-->
+  <section class="popular-food">
+    <div class="d-flex justify-content-center">
+      <button class="rounded-pill border-color px-4 py-2 ">
+        OUR MENU
+      </button>
+    </div>
+    <p class="offer-heading text-center">Most Popular Food in the World</p>
+    <div class=" row d-flex justify-content-center gap-5">
+      <div class="col-auto">
+        <button type="button" class="btn btn-outline rounded-pill">Starter</button>
+      </div>
+      <div class="col-auto">
+        <button type="button" class="btn btn-outline rounded-pill">Main course</button>
+      </div>
+      <div class="col-auto">
+        <button type="button" class="btn btn-outline rounded-pill">Drinks</button>
+      </div>
+      <div class="col-auto">
+        <button type="button" class="btn btn-outline rounded-pill">Offers</button>
+      </div>
+      <div class="col-auto">
+        <button type="button" class="btn btn-outline rounded-pill">Our Special</button>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="row row-cols-2">
+        <div class="col col-12 col-md-6 mt-5 mb-3 scale-in-ver-center">
+          <div class="d-flex gap-4">
+            <div>
+              <img src="images/menu-01.jpg" alt="" class="rounded-circle">
+            </div>
+            <div>
+              <div class="d-flex justify-content-between">
+                <h2>Paneer</h2>
+                <p class="dollar text-center">$90</p>
+              </div>
+              <p>Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col col-12 col-md-6 mt-5 mb-3 scale-in-ver-center ">
+          <div class="d-flex gap-4">
+            <div>
+              <img src="images/menu-02.jpg" alt="" class="rounded-circle">
+            </div>
+            <div>
+              <div class="d-flex justify-content-between">
+                <h2>Sweet Potato</h2>
+                <p class="dollar text-center">$90</p>
+              </div>
+              <p>Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col col-12 col-md-6 mt-3 mb-2 scale-in-ver-center ">
+          <div class="d-flex gap-4">
+            <div>
+              <img src="images/menu-03.jpg" alt="" class="rounded-circle">
+            </div>
+            <div>
+              <div class="d-flex justify-content-between">
+                <h2>Sweet Potato</h2>
+                <p class="dollar text-center">$90</p>
+              </div>
+              <p>Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col col-12 col-md-6 mt-3 mb-2 scale-in-ver-center ">
+          <div class="d-flex gap-4">
+            <div>
+              <img src="images/menu-04.jpg" alt="" class="rounded-circle">
+            </div>
+            <div>
+              <div class="d-flex justify-content-between">
+                <h2>Sweet Potato</h2>
+                <p class="dollar text-center">$90</p>
+              </div>
+              <p>Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col col-12 col-md-6 mt-3 mb-2 scale-in-ver-center ">
+          <div class="d-flex gap-4">
+            <div>
+              <img src="images/menu-05.jpg" alt="" class="rounded-circle">
+            </div>
+            <div>
+              <div class="d-flex justify-content-between">
+                <h2>Sweet Potato</h2>
+                <p class="dollar text-center">$90</p>
+              </div>
+              <p>Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col col-12 col-md-6 mt-3 mb-2 scale-in-ver-center ">
+          <div class="d-flex gap-4">
+            <div>
+              <img src="images/menu-06.jpg" alt="" class="rounded-circle">
+            </div>
+            <div>
+              <div class="d-flex justify-content-between">
+                <h2>Sweet Potato</h2>
+                <p class="dollar text-center">$90</p>
+              </div>
+              <p>Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col col-12 col-md-6 mt-3 mb-2 scale-in-ver-center ">
+          <div class="d-flex gap-4">
+            <div>
+              <img src="images/menu-07.jpg" alt="" class="rounded-circle">
+            </div>
+            <div>
+              <div class="d-flex justify-content-between">
+                <h2>Sweet Potato</h2>
+                <p class="dollar text-center">$90</p>
+              </div>
+              <p>Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col col-12 col-md-6 mt-3 mb-2 scale-in-ver-center">
+          <div class="d-flex gap-4">
+            <div>
+              <img src="images/menu-08.jpg" alt="" class="rounded-circle">
+            </div>
+            <div>
+              <div class="d-flex justify-content-between">
+                <h2>Sweet Potato</h2>
+                <p class="dollar text-center">$90</p>
+              </div>
+              <p>Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- popular food section end -->
+  <!-- team section start -->
+  <section class="team">
+    <div class="d-flex justify-content-center">
+      <button class="rounded-pill border-color px-4 py-2 ">
+        OUR MENU
+      </button>
+    </div>
+    <p class="offer-heading text-center">We have experienced chef Team</p>
+    <div class="container">
+      <div class="row row-cols-4 d-flex gap-3 gap-md-0">
+        <div class="col col-12 col-md-3 ">
+          <div class="chef-img-container ">
+            <img src="images/team-1.jpg" alt="" class="img-fluid">
+            <p id="chef-name" class="text-center">Henry</p>
+            <p class="text-light text-center pb-2">Decoration Chef</p>
+            <div class="over-lay  justify-content-end">
+              <div class="rounded-circle p-2 icon"><i class="fa-solid fa-share-nodes fa-2xl"
+                  style="color: #000205;"></i></div>
+              <div class="rounded-circle p-2 icon">
+                <i class="fa-brands fa-instagram fa-2xl" style="color: #000205;"></i>
+              </div>
+              <div class="rounded-circle p-2 icon">
+                <i class="fa-brands fa-youtube fa-2xl" style="color: #000205;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-3">
+          <div class="chef-img-container ">
+            <img src="images/team-2.jpg" alt="" class="img-fluid">
+            <p id="chef-name" class="text-center">Jemes Born</p>
+            <p class="text-light text-center pb-2">Executive Chef</p>
+            <div class="over-lay  justify-content-end">
+              <div class="rounded-circle p-2 icon"><i class="fa-solid fa-share-nodes fa-2xl"
+                  style="color: #000205;"></i></div>
+              <div class="rounded-circle p-2 icon">
+                <i class="fa-brands fa-instagram fa-2xl" style="color: #000205;"></i>
+              </div>
+              <div class="rounded-circle p-2 icon">
+                <i class="fa-brands fa-youtube fa-2xl" style="color: #000205;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-3">
+          <div class="chef-img-container ">
+            <img src="images/team-3.jpg" alt="" class="img-fluid">
+            <p id="chef-name" class="text-center">Martin Hill</p>
+            <p class="text-light text-center pb-2">Kitchen Porter</p>
+            <div class="over-lay  justify-content-end">
+              <div class="rounded-circle p-2 icon"><i class="fa-solid fa-share-nodes fa-2xl"
+                  style="color: #000205;"></i></div>
+              <div class="rounded-circle p-2 icon">
+                <i class="fa-brands fa-instagram fa-2xl" style="color: #000205;"></i>
+              </div>
+              <div class="rounded-circle p-2 icon">
+                <i class="fa-brands fa-youtube fa-2xl" style="color: #000205;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-12 col-md-3">
+          <div class="chef-img-container ">
+            <img src="images/team-4.jpg" alt="" class="img-fluid">
+            <p id="chef-name" class="text-center">Adam Smith</p>
+            <p class="text-light text-center pb-2">Head Chef</p>
+            <div class="over-lay  justify-content-end">
+              <div class="rounded-circle p-2 icon"><i class="fa-solid fa-share-nodes fa-2xl"
+                  style="color: #000205;"></i></div>
+              <div class="rounded-circle p-2 icon">
+                <i class="fa-brands fa-instagram fa-2xl" style="color: #000205;"></i>
+              </div>
+              <div class="rounded-circle p-2 icon">
+                <i class="fa-brands fa-youtube fa-2xl" style="color: #000205;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </section>
+  <!-- our blog -->
+  <section class="blog">
+    <div class="d-flex justify-content-center">
+      <button class="rounded-pill border-color px-4 py-2 ">
+        OUR MENU
+      </button>
+    </div>
+    <p class="offer-heading text-center">Be First Who Read News</p>
+    <div class="container">
+      <div class="row row-cols-3 d-flex justify-content-center justify-content-md-evenly">
+        <div class="col col-12 col-md-3 d-flex justify-content-center">
+          <div class="image-container">
+            <div class="image-hover"></div>
+            <img src="images/blog-1.jpg" alt="Image" class="hover-image img-fluid">
+          </div>
+        </div>
+        <div class="col col-12 col-md-3 d-flex justify-content-center">
+          <div class="image-container">
+            <div class="image-hover"></div>
+            <img src="images/blog-2.jpg" alt="Image" class="hover-image img-fluid">
+          </div>
+        </div>
+        <div class="col col-12 col-md-3 d-flex justify-content-center">
+          <div class="image-container">
+            <div class="image-hover"></div>
+            <img src="images/blog-3.jpg" alt="Image" class="hover-image img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- footer start -->
+  <footer class="footer">
+    <div class="container d-flex justify-content-around">
+      <div class="row row-cols-4">
+        <div class="col col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-start">
+          <div class="first-div">
+            <p class="footer-heading m-0 p-0">CaterServ</p>
+            <p class="text-muted">There cursus massa at urnaaculis estieSed aliquamellus vitae ultrs condmentum leo
+              massamollis its estiegittis
+              miristum.</p>
+          </div>
+        </div>
+        <div class="col col-12 col-md-6 col-lg-3  d-flex justify-content-center justify-content-md-start">
+          <div class="d-flex flex-column ">
+            <h3>Special Facilities</h3>
+            <ul>
+              <li>Special Sweets</li>
+              <li>Panner Burger</li>
+              <li>Sandwich</li>
+              <li>Cheese Burger</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col col-12 col-md-6 col-lg-3  d-flex justify-content-center justify-content-md-start">
+          <div class=" flex-column d-flex">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>26/7 Hours Service</li>
+              <li>nfo@example.com</li>
+              <li> (+012) 3456 7890 123</li>
+              <li> 123 Street, New York, USA</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col col-12 col-md-6 col-lg-3  d-flex justify-content-center justify-content-md-start">
+          <div class=" flex-column d-flex justify-content-end align-items-start">
+            <h3>Social Gallery</h3>
+            <div class="row row-col-3">
+              <div class="col col-md-4  p-1"><img src="images/menu-01.jpg" alt=""
+                  class="img-fluid rounded-circle border rounded-circle p-2 "></div>
+              <div class="col  col-md-4 p-1"><img src="images/menu-02.jpg" alt=""
+                  class="img-fluid rounded-circle border rounded-circle p-2"></div>
+              <div class="col  col-md-4 p-1"><img src="images/menu-03.jpg" alt=""
+                  class="img-fluid rounded-circle border rounded-circle p-2"></div>
+              <div class="col  col-md-4 p-1"><img src="images/menu-04.jpg" alt=""
+                  class="img-fluid rounded-circle border rounded-circle p-2"></div>
+              <div class="col  col-md-4 p-1"><img src="images/menu-05.jpg" alt=""
+                  class="img-fluid rounded-circle border rounded-circle p-2"></div>
+              <div class="col  col-md-4 p-1"><img src="images/menu-06.jpg" alt=""
+                  class="img-fluid rounded-circle border rounded-circle p-2"></div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</body>
+</html>
